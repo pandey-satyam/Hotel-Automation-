@@ -1,0 +1,76 @@
+#sep{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: beige;
+    background-color: black;
+}
+#sat{
+    background:rgb(70, 163, 109);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    border:3px dashed yellow;
+    padding:5px;
+    margin:5px auto;
+    border-radius: 5px;
+}
+#naya{
+    text-align: right;
+    position: fixed;
+    border: turquoise;
+    background:chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sca{
+    text-align: left;
+    
+
+}
+#sca:hover{
+    background:white;
+    color:black;
+    
+
+}
+footer{
+    text-align: center;
+    clear:both;
+    color:red;
+    background:white;
+}
+body{
+    background-image: linear-gradient(to right,orange,white,green);
+}
+#mee{
+    border:10px solid black;
+    border-radius: 10px;
+    animation-name: dhoni;
+    animation-delay: 2s;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: 100;
+}
+@keyframes dhoni{
+    0%{background-color: rgb(236, 118, 63);left: 0px;right:0px}
+    33%{background-color: rgb(249, 252, 250);left: 200px;right:0px}
+    67%{background-color: rgb(45, 160, 51);left: 0px;right:200px}
+    100%{background-color: rgb(240, 127, 75);left: 0px;right:0px}
+
+}
+ol{
+    text-align: left;
+    width:1000px;
+    height:100px;
+    background:black;
+    color: white;
+    overflow: scroll;
+    list-style: circle;
+    box-shadow: 0 0 2px rgb(70, 163, 109);
+}
+ol li:nth-child(2n){
+    text-align: right;
+}
+
+a:hover{
+    background:white;
+    color:black;
+}
